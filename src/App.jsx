@@ -25,6 +25,7 @@ function App() {
     setTodoList([todo,...todoList]);
   }
 
+
   //Todo 삭제
   const deleteTodo = (targetId) => {
     setTodoList(todoList.filter((todo)=>{return todo.id!=targetId}));
